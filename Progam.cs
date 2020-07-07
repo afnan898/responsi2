@@ -89,10 +89,10 @@ namespace ProjectCustomer
             Console.WriteLine("Hapus Data Customer\n");
             Console.Write("Kode Customer : ");
             string kd = Console.ReadLine();
-            foreach (Customer customer in daftarCustomer)
+            foreach (Customer Customer in daftarCustomer)
             {
                 no++;
-                if (customer.kd_customer == kd)
+                if (Customer.kd_customer == kd)
                 {
                     hapus = no;
                 }
